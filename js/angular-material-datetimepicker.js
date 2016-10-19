@@ -776,7 +776,6 @@
 
                 points.push(hour);
               }
-              }
 
               scope.points = points;
               setCurrentValue();
