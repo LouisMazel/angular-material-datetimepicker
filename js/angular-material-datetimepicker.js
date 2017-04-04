@@ -153,7 +153,7 @@
                   parent: angular.element(document.body),
                   bindToController: true,
                   disableParentScroll: false,
-                  skipHide: true
+                  multiple: true
                 })
                 .then(function (v) {
                   scope.currentDate = v ? v._d : v;
